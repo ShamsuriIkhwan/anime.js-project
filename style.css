@@ -1,0 +1,27 @@
+/* Basic styling */
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }*/
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Background color */
+    position: relative; /* Set relative position for absolute children */
+  }
+  
+  #svg-container {
+    position: absolute; /* Position absolutely to the right of the body */
+    right: 0; /* Align to the right side of the website */
+    top: 50%; /* Center vertically in the viewport */
+    transform: translateY(-50%); /* Adjust to truly center vertically */
+    width: 100px; /* Desired width */
+    height: 100px; /* Desired height */
+  }
